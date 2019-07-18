@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ApnCore_CRUD.Acesso_a_Dados;
+﻿using ApnCore_CRUD.Acesso_a_Dados;
 using ApnCore_CRUD.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ApnCore_CRUD.Controllers
 {
-    public class FuncionarioController : Controller
+	public class FuncionarioController : Controller
     {
 		private readonly IFuncionarioDAL funci;
 		public FuncionarioController(IFuncionarioDAL funcionario)
